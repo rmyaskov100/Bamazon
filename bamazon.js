@@ -27,14 +27,14 @@ function promptUserPurchase() {
 			type: 'input',
 			name: 'item_id',
 			message: 'Please enter an ID of the product you would like to purchase.',
-			validate: validateInput,
+			//validate: validateInput,
 			filter: Number
 		},
 		{
 			type: 'input',
 			name: 'quantity',
 			message: 'How many units of the product you would like to purchase?',
-			validate: validateInput,
+			
 			filter: Number
 		}
 	]).then(function(input) {

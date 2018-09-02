@@ -11,7 +11,7 @@ CREATE TABLE products (
 	PRIMARY KEY (item_id)
 );
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES  ('iPhone X', 'Electronics', 1.149.00, 432),
+VALUES  ('iPhone X', 'Electronics', 1149.00, 432),
 		('Samsung Note 9', 'Electronics', 999.99, 72),
 		('iPad Pro 12.9 inch', 'Electronics', 799.99, 95),
 		('iPad Pro 10.5 inch', 'Electronics', 649.00, 90),
